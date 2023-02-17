@@ -81,7 +81,8 @@ I have built POC based on the previous schematic, here are some close photos:
 </p>
 
 # The Code
-I am not a great python coder. I have written this code for testing purposes only, maybe someone else could help me to improve this mess.
+
+I am not a great Python coder. I have written this code for testing purposes only, maybe someone else could help me improve this mess.
 
 ```python
 import time
