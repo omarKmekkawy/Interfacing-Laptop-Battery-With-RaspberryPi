@@ -2746,7 +2746,7 @@
     (effects (font (size 1.6 1.6)) (justify left bottom))
     (uuid be4ae655-e8fb-4976-bb0f-406d0874b210)
   )
-  (text "ADS1115 16-bit ADC" (at 15.24 160.02 0)
+  (text "Status LED" (at 15.24 160.02 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid d78bcf46-03ab-405a-abad-b5fbd3640bf5)
   )
