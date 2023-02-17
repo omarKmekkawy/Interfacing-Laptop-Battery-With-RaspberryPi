@@ -70,15 +70,32 @@ Here, I give you the BOM of my design. I got most of the parts from AliExpress b
 | 1 | 10PCS ADUM1250ARZ SOP8 ADUM1250AR SOP ADUM1250 SMD 1250ARZ SOP-8 | 1 | [Aliexpress](https://www.aliexpress.com/item/1005002035874500.html?spm=a2g0o.order_list.order_list_main.78.583c1802ZRF1yf) |
 
 # Proof Of Concept (POC)
-I have built POC based on the previous schematic, here are some close photos:
 
-<p align="center">
-  <img width="100%" height="80%" src="./Images/WIN_20230126_20_07_54_Pro.jpg">
-</p>
+I have built a POC based on the previous schematic; here are some closeup photos:
 
 <p align="center">
   <img width="100%" height="80%" src="./Images/WIN_20230126_20_08_25_Pro.jpg">
 </p>
+
+<p align="center">
+  <img width="100%" height="80%" src="./Images/WIN_20230126_20_08_43_Pro.jpg">
+</p>
+
+<p align="center">
+  <img width="100%" height="80%" src="./Images/WIN_20230126_20_08_38_Pro.jpg">
+</p>
+
+Note: You can connect the battery's SMBus pins directly to the Raspberry Pi's I2C pins. Don't do this unless you are aware of what you are doing. I prefer that you use the isolated SMBus setup shown in the following image.
+
+<p align="center">
+  <img width="100%" height="80%" src="./Images/P_20230217_160235.jpg">
+</p>
+
+This is an image for the direct connection (without isolation):
+<p align="center">
+  <img width="100%" height="80%" src="./Images/P_20221005_223142.jpg">
+</p>
+
 
 # The Code
 
@@ -209,6 +226,12 @@ I have powered the Raspberry Pi from my new modified battery with the following 
 
 # Results
 After running the code, this is the data read from the battery.
+
+<p align="center">
+  <img width="100%" height="80%" src="./Images/P_20230217_160235.jpg">
+</p>
+
+
 <p align="center">
   <img width="100%" height="100%" src="./Images/Results.png">
 </p>
