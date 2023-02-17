@@ -249,7 +249,7 @@ If you have seen my work and it helped you, please support me on LinkedIn by end
 </p>
 
 # Donate to My Work
-It would be a pleasure if you supported me on any of the following platforms; it will help finish this work and getting new tools.
+It would be a pleasure if you supported me on any of the following platforms; it will help finish this work and get new tools.
 * [Buy Me A Cofee](https://www.buymeacoffee.com/omarmekkawy).
 * You can visit my [Patreon](https://www.patreon.com/OmarMekkawy) page and become a Patreon.
 * You can do a one-time donation via PayPal at [Donate Using Paypal](https://www.paypal.me/OmarKhaledMekkawy).
